@@ -227,4 +227,10 @@ public class RecursionTest {
         t.postOrder();
         assertEquals("01298764", t.traversal);
     }
+
+    @Test /* Contributed by Ellen Nichols, Spring 2023 */
+    public void test37BST(){
+        BST t = new BST(5);
+        assertEquals(3,t.height());
+    }
 }
